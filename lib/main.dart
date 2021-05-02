@@ -20,8 +20,7 @@ class HelloWorldApp extends StatelessWidget {
         body: SafeArea(
           child: Column(
             children: [
-              Expanded(
-                child: Container(
+                 Container(
                   height: 200,
                   width: 300,
                   decoration: BoxDecoration(
@@ -39,85 +38,86 @@ class HelloWorldApp extends StatelessWidget {
                     ),
                   ),
                 ),
-              ),
-              Expanded(
-                child: Row(
-                  children: [
-                    Container(
-                      height: 200,
-                      width: 300,
-                      decoration: BoxDecoration(
-                        color: Colors.black26,
-                      ),
-                      alignment: Alignment.center,
-                      margin: EdgeInsets.all(20),
-                      child: Text(
-                        'Hello world',
-                        textDirection: TextDirection.ltr,
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
+
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: [
+                      Container(
+                        height: 200,
+                        width: 300,
+                        decoration: BoxDecoration(
+                          color: Colors.black26,
+                        ),
+                        alignment: Alignment.center,
+                        margin: EdgeInsets.all(20),
+                        child: Text(
+                          'Hello world',
+                          textDirection: TextDirection.ltr,
+                          style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
-                    ),
-                    Container(
-                      height: 200,
-                      width: 300,
-                      decoration: BoxDecoration(
-                        color: Colors.black26,
-                      ),
-                      alignment: Alignment.center,
-                      margin: EdgeInsets.all(20),
-                      child: Text(
-                        'Hello world',
-                        textDirection: TextDirection.ltr,
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
+                      Container(
+                        height: 200,
+                        width: 300,
+                        decoration: BoxDecoration(
+                          color: Colors.black26,
+                        ),
+                        alignment: Alignment.center,
+                        margin: EdgeInsets.all(20),
+                        child: Text(
+                          'Hello world',
+                          textDirection: TextDirection.ltr,
+                          style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
-                    ),
-                    Container(
-                      height: 200,
-                      width: 300,
-                      decoration: BoxDecoration(
-                        color: Colors.black26,
-                      ),
-                      alignment: Alignment.center,
-                      margin: EdgeInsets.all(20),
-                      child: Text(
-                        'Hello world',
-                        textDirection: TextDirection.ltr,
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
+                      Container(
+                        height: 200,
+                        width: 300,
+                        decoration: BoxDecoration(
+                          color: Colors.black26,
+                        ),
+                        alignment: Alignment.center,
+                        margin: EdgeInsets.all(20),
+                        child: Text(
+                          'Hello world',
+                          textDirection: TextDirection.ltr,
+                          style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
-                    ),
-                    Container(
-                      height: 200,
-                      width: 300,
-                      decoration: BoxDecoration(
-                        color: Colors.black26,
-                      ),
-                      alignment: Alignment.center,
-                      margin: EdgeInsets.all(20),
-                      child: Text(
-                        'Hello world',
-                        textDirection: TextDirection.ltr,
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
+                      Container(
+                        height: 200,
+                        width: 300,
+                        decoration: BoxDecoration(
+                          color: Colors.black26,
+                        ),
+                        alignment: Alignment.center,
+                        margin: EdgeInsets.all(20),
+                        child: Text(
+                          'Hello world',
+                          textDirection: TextDirection.ltr,
+                          style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
-              ),
               Expanded(
                 child: Container(
                   height: 200,
